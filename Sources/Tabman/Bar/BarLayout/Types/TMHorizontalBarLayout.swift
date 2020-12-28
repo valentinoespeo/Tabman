@@ -33,7 +33,7 @@ open class TMHorizontalBarLayout: TMBarLayout {
             case .intrinsic:
                 buttonDistribution = .fill
             case .fit:
-                buttonDistribution = .fillEqually
+                buttonDistribution = .fillProportionally
             }
         }
     }
